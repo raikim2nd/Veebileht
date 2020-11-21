@@ -1,9 +1,10 @@
 img {
-	width: 10%;
-	height: 10%;
+	width: 200px;
 }
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+
+.horizontal-flex-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 150px;
 }

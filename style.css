@@ -8,3 +8,9 @@ img {
 	justify-content: center;
 	margin: 150px;
 }
+
+body {
+	font-family: verdana;
+	color: white;
+	font-size: 18px; 
+}

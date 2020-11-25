@@ -1,1 +1,14 @@
+img {
+	width: 200px;
+}
 
+.horizontal-flex-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 150px;
+}
+
+body {
+	background-color: whitesmoke;
+}

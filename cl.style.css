@@ -1,1 +1,14 @@
+body {
+	background-image: url(https://cdn.pixabay.com/photo/2018/09/01/20/38/football-field-3647581_1280.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: verdana;
+	color: white;
+	font-size: 18px; 
+}
+
+img {
+	width: 200px;
+}
+
 

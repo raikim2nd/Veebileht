@@ -23,10 +23,11 @@ section{
 .pilt1{
     width: 350px;
     padding-right: 50px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 .pilt2{
     width: 650px;
+    padding-right: 25px;
 
 }
 .pilt3{
@@ -34,4 +35,8 @@ section{
     padding-right: 50px;
     padding-top: 25px;
 
+}
+.pilt4{
+    width: 550px;
+    padding-top: 50px;
 }

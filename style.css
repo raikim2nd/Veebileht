@@ -33,7 +33,8 @@ img {
     padding-top: 2%;
 }
 
-figcaption {
+.img_with_text {
+    margin-top: 1%;
     font-family: arial;
 }
 

@@ -1,47 +1,53 @@
-.box{
-    position: relative;
-    max-width: 800px;
-    padding: 50px;
-    background: rgba(100, 100, 100, 0.4);
-	box-shadow: 0 10px 15px rgba(0, 0, 0, 1.0);
-	backdrop-filter: blur(1px);
-}
-section{
-	padding: 50px 500px;
+body {
     background-image: url("https://cdn.pixabay.com/photo/2018/09/01/20/38/football-field-3647581_1280.jpg");
-    max-height: 100%;
-	margin-left: -8px;
-	background-size: 105%;
-	background-attachment: fixed;
-	background-size: cover;
-	overflow: hidden;
-}
-body{
-
-    margin: 0;
-    padding: 0;
-    font-family: verdana;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
+    font-family: verdana;
+    font-size: 18px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: bold;
 }
-h1{
-	font-size: 200%;
+
+figcaption {
+    font-family: arial;
 }
-img {
-	width: 560px;
-	display: block;
-    margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-}
-iframe {
+
+div {
     display: block;
+    width: 60%;
+    padding: 50px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: rgba(100, 100, 100, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.0);
+    backdrop-filter: blur(1px);
+}
+
+img {
+	max-width: 50%;
+    min-width: 40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
 }
 
 figcaption {
 	font-family: arial;
+}
+
+h1 {
+    font-size: 200%
+}
+
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2%;
 }

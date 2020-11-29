@@ -1,8 +1,8 @@
-var images = new Array();
+var images = [];
 
 function preloadImages(){
 
-    for (i=0; i < preloadImages.arguments.length; i++){
+    for (var i=0; i < preloadImages.arguments.length; i++){
 
          images[i] = new Image();
 

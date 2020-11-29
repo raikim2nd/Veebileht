@@ -11,10 +11,6 @@ body {
     font-weight: bold;
 }
 
-figcaption {
-    font-family: arial;
-}
-
 div {
     display: block;
     width: 60%;
@@ -38,8 +34,7 @@ img {
 }
 
 figcaption {
-	font-family: arial;
-	margin-top: 1%;
+    font-family: arial;
 }
 
 h1 {
